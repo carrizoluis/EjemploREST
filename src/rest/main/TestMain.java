@@ -1,5 +1,7 @@
 package rest.main;
 
+import javax.swing.JOptionPane;
+
 import rest.com.example.Args;
 import rest.com.example.Example;
 import rest.com.example.Headers;
@@ -29,6 +31,7 @@ public class TestMain {
 		
 		System.out.println(RestController.doPost(example));
 		
+		JOptionPane.showMessageDialog(null, "Hola Mundo");
 		
 		
 	}
